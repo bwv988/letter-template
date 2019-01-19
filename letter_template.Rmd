@@ -1,0 +1,24 @@
+---
+komaoption: "fromlogo=true, fromurl=true"
+lco: "assets/custom"
+author: Ralph Schlosser
+
+subject: A really important message.
+return-email: ralph.schlosser@gmail.com
+return-url: www.warpbreaks.io
+opening: To whom it may concern,
+closing: Best regards,
+signature: Ralph Schlosser
+
+header-includes:
+  \usepackage{lipsum}
+  \usepackage{tikz}
+  \setkomavar{fromlogo}{\tikz[overlay,remember picture] \node [anchor = north west, inner sep = 0pt, xshift=0.8cm, yshift=-0.5cm] at (current page.north west) {\includegraphics[scale=0.11]{assets/logo.png}};}
+
+output: 
+  komaletter::komaletter:
+    # Set to true in order to inspect the generated TeX file.
+    # keep_tex: true
+---
+
+\lipsum[1-2]
