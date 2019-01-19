@@ -1,8 +1,8 @@
 # letter-template
 
-This is my formal letter template which is based on `RMarkdown`, the fantastic `komaletter` package in R, and some very minor style modifications to the LCO (Letter Class Options) file shipped with the forementioned package in order to allow placing a logo.
+This is my formal letter template which is based on `RMarkdown`, the fantastic `komaletter` package in R, and some *very* minor style modifications to the LCO (Letter Class Options) file shipped with the aforementioned package, in order to allow placing a logo.
 
-An example PDF can be viewed here:
+An example PDF can be viewed here: [example/letter_template.pdf](other_file.md)
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ The komaletter package is available from CRAN, so a simple install will suffice:
 install.packages("komaletter")
 ```
 
-After this, the new KOMAletter template is available in R.
+After this, the new KOMAletter template can be selected in R.
 
 ## Usage
 
