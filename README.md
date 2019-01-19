@@ -2,7 +2,7 @@
 
 This is my formal letter template which is based on `RMarkdown`, the fantastic `komaletter` package in R, and some *very* minor style modifications to the LCO (Letter Class Options) file shipped with the aforementioned package, in order to allow placing a logo.
 
-An example PDF can be viewed here: [example/letter_template.pdf](other_file.md)
+An example PDF can be viewed here: [letter_template.pdf](example/letter_template.pdf)
 
 ## Prerequisites
 
